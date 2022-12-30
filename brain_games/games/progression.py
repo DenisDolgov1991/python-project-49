@@ -28,4 +28,4 @@ def progression_gen(first_num, step, lengt_progression):
     progression = [first_num]
     while len(progression) < lengt_progression:
         progression.append(progression[-1] + step)
-     return progression
+    return progression
