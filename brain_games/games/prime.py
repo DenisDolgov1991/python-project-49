@@ -19,11 +19,9 @@ def brain_ring():
 
 
 def is_prime(num):
-    i = 0
-    for n in range(2, num // 2 + 1):
-        if num % n == 0:
-            i += 1
-    if i > 0:
+    if num <= 1:
         return False
-    else:
-        return True
+    for i in range(2, numr):
+        if num % i == 0:
+            return False
+    return True
