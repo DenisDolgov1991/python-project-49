@@ -1,7 +1,7 @@
 from random import randint
 
 
-GAME = 'Answer "yes" if given number is prime. Otherwisr answer "no".'
+GAME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 MIN_NUM = 1
