@@ -2,7 +2,7 @@ from random import randint
 import math
 
 
-GAME = 'Find the greatwst common divisor of given numbers.'
+GAME = 'Find the greatest common divisor of given numbers.'
 
 
 MIN_NUM = 1
