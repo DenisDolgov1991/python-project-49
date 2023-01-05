@@ -1,13 +1,16 @@
 import prompt
 
 
+NUMBER_ROUND = 3
+
+
 def game_start(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print(game.GAME)
 
-    for _ in range(3):
+    for _ in range(NUMBER_ROUND):
         question, correct_answer = game.brain_ring()
         print(f"Question: {question}")
         answer = prompt.string('Your answer: ')

@@ -12,6 +12,13 @@ MIN_LENGT = 5
 MAX_LENGT = 10
 
 
+def progression_gen(first_num, step, lengt_progression):
+    progression = [first_num]
+    while len(progression) < lengt_progression:
+        progression.append(progression[-1] + step)
+    return progression
+
+
 def brain_ring():
     first_num = randint(MIN_NUM, MAX_NUM)
     step = randint(MIN_STEP, MAX_STEP)
@@ -22,10 +29,3 @@ def brain_ring():
     progression[index] = '..'
     question = " ".join(map(str, progression))
     return question, correct_answer
-
-
-def progression_gen(first_num, step, lengt_progression):
-    progression = [first_num]
-    while len(progression) < lengt_progression:
-        progression.append(progression[-1] + step)
-    return progression

@@ -8,6 +8,15 @@ MIN_NUM = 1
 MAX_NUM = 50
 
 
+def is_prime(num):
+    if num <= 1:
+        return False
+    for i in range(2, num):
+        if num % i == 0:
+            return False
+    return True
+
+
 def brain_ring():
     num = randint(MIN_NUM, MAX_NUM)
     question = str(num)
@@ -16,12 +25,3 @@ def brain_ring():
     else:
         correct_answer = 'no'
     return question, correct_answer
-
-
-def is_prime(num):
-    if num <= 1:
-        return False
-    for i in range(2, num):
-        if num % i == 0:
-            return False
-    return True
