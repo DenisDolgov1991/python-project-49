@@ -19,6 +19,8 @@ brain-prime - Определение простого числа.
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/DenisDolgov1991/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/DenisDolgov1991/python-project-49/actions)
 
+[!(Maintainability)](<a href="https://codeclimate.com/github/DenisDolgov1991/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/88a9be6a48b19ffafa7b/maintainability" /></a>)
+
 
 ### Asciinema
 
